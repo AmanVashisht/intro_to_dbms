@@ -1,0 +1,32 @@
+<!-- List out the different types of classification in DBMS and explain them in depth -->
+
+
+Databases can be classified in a number of ways, depending on the criteria used. Some of the most common classification schemes include:
+
+By data model Databases can be classified according to the data model they use to store and organize data. Common data models include:
+
+Relational: Relational databases store data in tables, which are made up of rows and columns. Each row represents a single record, and each column represents a different attribute of that record. Relational databases are the most common type of database today.
+
+NoSQL: NoSQL databases are a newer type of database that is designed to store and manage non-relational data, such as JSON, XML, and graph data. NoSQL databases are often used for large datasets and high-performance applications.
+
+Object-oriented: Object-oriented databases store data in objects, which are self-contained units that contain both data and code. Object-oriented databases are often used for complex data structures and applications that require a lot of data processing.
+
+
+By deployment Databases can also be classified according to how they are deployed. Common deployment types include:
+
+Centralized: Centralized databases are stored on a single server and accessed by users over a network. Centralized databases are typically the simplest type of database to deploy and manage.
+
+Distributed: Distributed databases are stored across multiple servers and accessed by users over a network. Distributed databases are often used for large datasets and applications that require high availability.
+
+Cloud-based: Cloud-based databases are hosted on a cloud computing platform, such as Amazon Web Services (AWS) or Microsoft Azure. Cloud-based databases are often the most scalable and cost-effective type of database to deploy.
+By purpose
+
+
+
+Databases can also be classified according to their purpose. Some common database purposes include:
+
+Transactional: Transactional databases are used to support applications that require high performance and data integrity, such as online transaction processing (OLTP) systems.
+
+Analytical: Analytical databases are used to support applications that need to analyze large datasets, such as data warehouses and business intelligence (BI) systems.
+
+Content management: Content management databases are used to store and manage digital content, such as images, videos, and documents.

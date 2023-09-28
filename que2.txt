@@ -1,0 +1,33 @@
+<!-- Write a short note on File base storage system. Explain the major challenges of a File-based storage system -->
+
+A file-based storage system is an older, traditional method of organizing and storing data on a computer system. In this approach, data is stored in separate files, each of which may contain records or information related to a specific task, application, or purpose. While file-based storage systems are simple and straightforward, they come with several challenges, which have led to the adoption of more advanced database management systems (DBMS). Here's a short note on file-based storage systems and their major challenges:
+
+File-Based Storage System:
+
+Structure: Data is stored in individual files, often with specific file formats, which may or may not be standardized. These files can include text files, spreadsheets, images, and more.
+
+Data Independence: Each application or user manages its own data files independently. There is typically no centralized control or data management.
+
+Limited Data Integrity: Ensuring data consistency and integrity is challenging, as there are no built-in mechanisms to enforce relationships or constraints between files.
+
+Limited Security: Security features are limited. Access control to individual files is often managed at the file system level and can be rudimentary.
+
+Major Challenges of File-Based Storage Systems:
+
+Data Redundancy: Data duplication is common, as the same information may be stored in multiple files. This redundancy can lead to inconsistencies and increased storage requirements.
+
+Data Inconsistency: Since there are no mechanisms to enforce data integrity and consistency across files, it's easy for data discrepancies to arise. Updates or changes made to one file may not be reflected in others.
+
+Limited Data Sharing: Sharing data between applications or users can be cumbersome. Each application typically has its own data files, making it challenging to share and synchronize data across different parts of an organization.
+
+Lack of Data Security: File-based systems often lack comprehensive security features, such as user authentication and fine-grained access control. Protecting sensitive data can be difficult.
+
+Scalability Issues: As an organization's data needs grow, managing and maintaining a large number of files can become inefficient and prone to errors. Retrieving specific data can also become slower.
+
+Data Dependency: Applications are tightly coupled with specific file formats, making it difficult to change or upgrade systems without impacting data compatibility.
+
+Difficulty in Querying: Extracting specific information from files can be challenging, as querying typically involves writing custom code for each application to parse and process the data.
+
+Backup and Recovery Challenges: Managing backups of multiple files and ensuring data recovery in case of system failures can be complex and error-prone.
+
+Maintenance Overhead: As data and applications evolve, maintaining file-based systems can become increasingly labor-intensive and costly.

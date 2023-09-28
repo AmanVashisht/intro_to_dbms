@@ -1,0 +1,20 @@
+<!-- Explain 3 schema architecture along with its advantages. -->
+
+The three-schema architecture is a database design approach that separates the logical design of the database from its physical implementation. This provides a number of benefits, including:
+
+Data independence: The logical design of the database can be changed without affecting the physical implementation, and vice versa. This makes it easier to maintain and update the database.
+
+Performance optimization: The physical implementation of the database can be optimized for the specific hardware and software environment without affecting the logical design. This can improve the performance of the database.
+
+Security: The physical schema can be used to hide sensitive data from users who do not need to see it. This can improve the security of the database.
+
+
+
+The three-schema architecture is made up of three schemas:
+
+External schema: The external schema defines the view of the database for a specific user or group of users. It is used to hide unnecessary details from the user and to present the data in a format that is easy to understand.
+
+Conceptual schema: The conceptual schema defines the overall structure of the database. It describes the entities, attributes, and relationships in the data. The conceptual schema is independent of the physical implementation of the database.
+
+Internal schema: The internal schema defines the physical implementation of the database. It describes how the data is stored and accessed on the physical storage devices. The internal schema is dependent on the specific hardware and software environment in which the database is running.
+

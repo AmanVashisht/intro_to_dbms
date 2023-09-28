@@ -1,0 +1,16 @@
+<!-- What is a Database? Explain with an example on why should we need a database -->
+
+A database is a structured collection of data that is organized in a way that allows for efficient storage, retrieval, and management of information. It is designed to store and manage large volumes of data, making it accessible for various applications and users. Databases are used in a wide range of fields, including business, science, government, and many other domains.
+
+Data Redundancy: With multiple copies of customer information and product details in different files, you face data redundancy. For example, if a customer changes their address, you must update it in multiple places, increasing the risk of inconsistencies.
+
+Data Inconsistency: In a file-based system, maintaining data consistency becomes challenging. For instance, if you change the price of a product in one file but forget to update it in another, you may have incorrect information.
+
+Data Security: Managing data security becomes complex in a file-based system. It's difficult to restrict access to specific pieces of data or ensure that only authorized users can modify certain information.
+
+Scalability: As your online store grows, managing data across numerous files becomes inefficient and time-consuming. Retrieving specific information from scattered files becomes a bottleneck.
+
+
+Here's an example to illustrate why we need a database:
+
+Imagine you are running an online store where you sell various products. You need to keep track of information about these products, including their names, descriptions, prices, available quantities, customer orders, and customer information. Initially, you might consider using a file-based approach, where you create individual text files for each product, each order, and each customer.

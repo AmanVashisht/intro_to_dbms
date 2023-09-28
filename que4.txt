@@ -1,0 +1,23 @@
+<!-- Explain 5 challenges of file-based storage system which was tackled by DBMS? -->
+
+Database Management Systems (DBMS) were introduced to address several challenges associated with traditional file-based storage systems. Here are five key challenges of file-based storage systems that were effectively tackled by DBMS:
+
+1. Data Redundancy:
+   - Challenge in File-Based Systems: In file-based systems, the same data may be duplicated across multiple files or records. This redundancy consumes storage space and increases the risk of data inconsistencies when updates are made in one place but not propagated to others.
+   - DBMS Solution: DBMS minimizes data redundancy by allowing data to be stored in a structured manner in centralized tables. This reduces the need for duplicating data, as related information can be stored in separate tables and linked through relationships.
+
+2. Data Inconsistency:
+   - Challenge in File-Based Systems: Inconsistent data can occur when changes are made to data in one file or record but not updated in others. This can lead to conflicting or incorrect information.
+   - DBMS Solution: DBMS enforces data consistency by defining and enforcing constraints and relationships between tables. For example, it can ensure that data in related tables remains synchronized through foreign keys and referential integrity constraints.
+
+3. Data Security:
+   - Challenge in File-Based Systems: File-based systems often lack comprehensive security features. Access control mechanisms are typically limited, making it difficult to protect sensitive data from unauthorized access.
+   - DBMS Solution: DBMS offers robust security features, including user authentication, access control, and encryption. It allows administrators to define who can access the database, what operations they can perform, and which parts of the database they can access.
+
+4. Data Sharing and Collaboration:
+   - Challenge in File-Based Systems: Sharing data among different applications or users in a file-based environment can be cumbersome and error-prone. Each application may have its own set of data files.
+   - DBMS Solution: DBMS centralizes data storage and provides mechanisms for concurrent access by multiple users and applications. It offers a platform for data sharing and collaboration, making it easier to maintain and update shared information.
+
+5. Scalability and Performance:
+   -Challenge in File-Based Systems: As data volumes grow, managing and querying data in file-based systems becomes inefficient. Retrieving specific information from scattered files can result in performance bottlenecks.
+   -DBMS Solution: DBMS is designed for scalability and optimized data access. It can handle large volumes of data efficiently, thanks to indexing, query optimization, and caching mechanisms. This ensures that data remains accessible and responsive as the database grows.

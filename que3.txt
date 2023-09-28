@@ -1,0 +1,31 @@
+<!-- What is DBMS? What was the need for DBMS? -->
+
+DBMS stands for "Database Management System." It is a software system that provides an organized and efficient way to store, manage, retrieve, and manipulate data in a database. The primary purpose of a DBMS is to act as an intermediary between users or applications and the underlying database, facilitating data management and ensuring data integrity and security.
+
+The Need for DBMS:
+The need for Database Management Systems arose due to several challenges and shortcomings associated with traditional file-based data storage systems. Here are some key reasons why DBMS became essential:
+
+Data Redundancy: In file-based systems, data redundancy is common because the same data may be stored in multiple files. This redundancy can lead to inconsistencies and wasted storage space.
+
+Data Inconsistency: Maintaining data consistency becomes challenging in file-based systems. Changes made to one file may not be reflected in others, leading to data discrepancies.
+
+Data Integrity: Ensuring data integrity, including enforcing constraints and relationships, is difficult in file-based systems. DBMS provides mechanisms to define and enforce data integrity rules.
+
+Data Security: File-based systems often lack robust security features. DBMS offers access control mechanisms and encryption to protect data from unauthorized access.
+
+Data Sharing: In file-based systems, sharing data between different applications or users can be cumbersome. DBMS facilitates centralized data storage and sharing among multiple users and applications.
+
+Scalability: As data volumes grow, managing data in file-based systems becomes inefficient. DBMS can handle large volumes of data and provides efficient querying and retrieval mechanisms.
+
+Querying and Reporting: DBMS provides query languages (e.g., SQL) and tools for querying and reporting, making it easier to retrieve specific information from the database.
+
+Data Independence: DBMS separates the physical storage of data from the logical representation, allowing changes to the data structure without affecting applications.
+
+Data Backup and Recovery: DBMS offers backup and recovery features to safeguard data against loss or corruption, making it easier to restore data in case of failures.
+
+Concurrent Access: In multi-user environments, DBMS ensures that multiple users can access and modify data simultaneously while maintaining data consistency through concurrency control mechanisms.
+
+Data Modeling: DBMS supports data modeling and schema design, helping users define the structure of their data and the relationships between entities.
+
+Data Efficiency: DBMS optimizes data storage and retrieval, improving data access times and overall system performance.
+
